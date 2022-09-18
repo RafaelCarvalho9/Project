@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="padm.css">
+     
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
+
+    <!--<title>Painel Administrativo---> 
+</head>
+<body>
+    <nav>
+        <div class="logo-name">
+            <div class="logo-image">
+                <!--<img src=="">-->
+            </div>
+
+            <span class="logo_name">WorkStudy</span>
+        </div>
+    <!--Itens do Menu (NavBar)-->
+        <div class="menu-items">
+            <ul class="nav-links">
+                <li><a href="#">
+                    <i class="uil uil-estate"></i>
+                    <span class="link-name">Painel de Controle</span>
+                </a></li>
+               
+                <li><a href="#">
+                    <i class="uil uil-chart"></i>
+                    <span class="link-name">Graficos</span>
+                </a></li>
+                <li><a href="#">
+                    <i class="uil uil-thumbs-up"></i>
+                    <span class="link-name">Curtidas</span>
+                </a></li>
+                <li><a href="#">
+                    <i class="uil uil-comments"></i>
+                    <span class="link-name">Cadastros</span>
+                </a></li>
+                <li><a href="#">
+                    <i class="uil uil-share"></i>
+                    <span class="link-name">Compartilhar</span>
+                </a></li>
+            </ul>
+            
+            <ul class="logout-mode">
+                <li><a href="#">
+                    <i class="uil uil-signout"></i>
+                    <span class="link-name">Deslogar</span>
+                </a></li>
+
+                <li class="mode">
+                    <a href="#">
+                        <i class="uil uil-moon"></i>
+                    <span class="link-name">Dark Mode</span>
+                </a>
+
+                <div class="mode-toggle">
+                  <span class="switch"></span>
+                </div>
+            </li>
+            </ul>
+        </div>
+    </nav>
+
+    <section class="dashboard">
+        <div class="top">
+            <i class="uil uil-bars sidebar-toggle"></i>
+        <!--Barra de pesquisa-->
+            <div class="search-box">
+                <i class="uil uil-search"></i>
+                <input type="text" placeholder="Busque aqui ...">
+            </div>
+            
+            <!--<img src=="">-->
+        </div>
+
+        <div class="dash-content">
+            <div class="overview">
+                <div class="title">
+                    <i class="uil uil-tachometer-fast-alt"></i>
+                    <span class="text">Painel de Controle</span>
+                </div>
+        <!--Textos Flutuantes-->
+                <div class="boxes">
+                    <div class="box box1">
+                        <i class="uil uil-thumbs-up"></i>
+                        <span class="text">Curtidas</span>
+                        <span class="number">50,120</span>
+                    </div>
+                    <div class="box box2">
+                        <i class="uil uil-comments"></i>
+                        <span class="text">Inscrições Totais</span>
+                        <span class="number">20,120</span>
+                    </div>
+                    <div class="box box3">
+                        <i class="uil uil-share"></i>
+                        <span class="text">Compartilhados</span>
+                        <span class="number">10,120</span>
+                    </div>
+                </div>
+            </div>
+        <!--Visão geral-->
+            <div class="activity">
+                <div class="title">
+                    <i class="uil uil-clock-three"></i>
+                    <span class="text">Atividades Recentes</span>
+                </div>
+        <!--Atividades Recentes-->
+                <div class="activity-data">
+                    <div class="data names">
+                        <span class="data-title">Nome</span>
+                        <span class="data-list">Rafael</span>
+                        <span class="data-list">Carlos</span>
+                        <span class="data-list">Daniel</span>
+                        <span class="data-list">Rayssa</span>
+                      
+                    </div>
+                    <div class="data email">
+                        <span class="data-title">Instituição</span>
+                        <span class="data-list">Vianna Junior</span>
+                        <span class="data-list">Estacio</span>
+                        <span class="data-list">Doctum</span>
+                        <span class="data-list">UFJF</span>
+                      
+                    </div>
+                    <div class="data joined">
+                        <span class="data-title">Data do ultimo login</span>
+                        <span class="data-list">2022-02-12</span>
+                        <span class="data-list">2022-02-12</span>
+                        <span class="data-list">2022-02-13</span>
+                        <span class="data-list">2022-02-13</span>
+
+                    </div>
+                    <div class="data type">
+                        <span class="data-title">Nivel do Perfil</span>
+                        <span class="data-list">ADM</span>
+                        <span class="data-list">Usuario</span>
+                        <span class="data-list">Usuario</span>
+                        <span class="data-list">ADM</span>
+                
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--<script src="script.js"></script>-->
+    <script src="padm.js"></script>
+</body>
+</html>
